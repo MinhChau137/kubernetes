@@ -13,3 +13,8 @@ SimpleWebApp là ứng dụng web PHP tĩnh, đơn giản, dùng trong các bài
 
 ## Phiên bản
 v1.0 - 3/10/2022
+
+#**Deploy kubernetes**
+* kubectl apply -f php-deployment.yaml
+* kubectl apply -f mysql-pv.yaml
+* kubectl apply -f mysql-deployment.yaml
