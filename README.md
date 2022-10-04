@@ -11,10 +11,11 @@ SimpleWebApp là ứng dụng web PHP tĩnh, đơn giản, dùng trong các bài
 * Nếu kết nối thất bại, sai thông tin đăng nhập, hoặc lỗi Database sẽ hiển thị
 ![alt](failed.png)
 
-## Phiên bản
-v1.0 - 3/10/2022
-
 #**Deploy kubernetes**
 * kubectl apply -f php-deployment.yaml
 * kubectl apply -f mysql-pv.yaml
 * kubectl apply -f mysql-deployment.yaml
+
+## Phiên bản
+v1.0 - 3/10/2022
+
